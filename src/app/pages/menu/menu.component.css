@@ -1,8 +1,8 @@
 
-.foodbox 
+.foodbox
 {
     padding: 10px 10px;
-} 
+}
 .foodbox img
 {
     width: 100%;
@@ -10,7 +10,7 @@
     object-fit: cover;
     border-radius: 5px;
 }
-.foodbox h1 
+.foodbox h1
 {
     font-size: 18px;
     margin-top: 20px;

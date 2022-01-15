@@ -71,17 +71,73 @@ export class OrderDetailsService {
   Platos =[
     {
       id:1,
-      foodName:"Personal",
-      foodDetails:"Máximo un adulto.",
-      foodPrice:40,
-      foodImg:"assets/img/personal.jpeg"
+      platoNombre:"Cubana ",
+      platoDescripcion:"Máximo un adulto.",
+      platoPrecio:10,
+      // foodImg:"assets/img/personal.jpeg"
     },
     {
       id:2,
-      foodName:"Matrimonial",
-      foodDetails:"Máximo dos adultos",
-      foodPrice:60,
-      foodImg:"assets/img/matrimonial.jpeg"
+      platoNombre:"Caldo de gallina ",
+      platoDescripcion:"Máximo222 adulto.",
+      platoPrecio:12,
+      // foodImg:"assets/img/matrimonial.jpeg"
+    },
+    {
+      id:3,
+      platoNombre:"Arroz chaufa ",
+      platoDescripcion:"Máximo un adulto.",
+      platoPrecio:14,
+      // foodImg:"assets/img/personal.jpeg"
+    },
+    {
+      id:4,
+      platoNombre:"Pollo frito c/ papas fritas y arroz ",
+      platoDescripcion:"Máximo222 adulto.",
+      platoPrecio:15,
+      // foodImg:"assets/img/matrimonial.jpeg"
+    },
+    {
+      id:5,
+      platoNombre:"Milanesa de pollo /c papas fritas y arroz ",
+      platoDescripcion:"Máximo un adulto.",
+      platoPrecio:18,
+      // foodImg:"assets/img/personal.jpeg"
+    },
+    {
+      id:6,
+      platoNombre:"Bisteck a lo pobre c/ arroz ",
+      platoDescripcion:"Máximo222 adulto.",
+      platoPrecio:18,
+      // foodImg:"assets/img/matrimonial.jpeg"
+    },
+    {
+      id:7,
+      platoNombre:"Lomo saltado c/ papas fritas y arroz ",
+      platoDescripcion:"Máximo un adulto.",
+      platoPrecio:20,
+      // foodImg:"assets/img/personal.jpeg"
+    },
+    {
+      id:8,
+      platoNombre:"Chuleta de chancho c/ papas fritas y arroz ",
+      platoDescripcion:"Máximo222 adulto.",
+      platoPrecio:16,
+      // foodImg:"assets/img/matrimonial.jpeg"
+    },
+    {
+      id:9,
+      platoNombre:"Chuleta de res c/ papas fritas y arroz ",
+      platoDescripcion:"Máximo un adulto.",
+      platoPrecio:16,
+      // foodImg:"assets/img/personal.jpeg"
+    },
+    {
+      id:10,
+      platoNombre:"Tortilla vegetaría (verduras de estación) c/arroz ",
+      platoDescripcion:"Máximo222 adulto.",
+      platoPrecio:10,
+      // foodImg:"assets/img/matrimonial.jpeg"
     },
   ]
 

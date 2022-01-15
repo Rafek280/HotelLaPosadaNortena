@@ -10,8 +10,10 @@ export class GaleriaComponent implements OnInit {
 
   constructor(private service:OrderDetailsService) { }
   foodData:any;
+  platoData:any;
   ngOnInit(): void {
     this.foodData = this.service.Habitaciones;
+    this.platoData = this.service.Platos;
   }
 
 }

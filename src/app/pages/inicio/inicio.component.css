@@ -1,6 +1,6 @@
 .banner
 {
-    background-image: url('../../../assets/img/bannerimg.jpg');
+    background-image: url('../../../assets/img/bannerimg.jpeg');
     height: 900px;
     background-position: center top;
     background-size: cover;
@@ -60,6 +60,21 @@
     font-style: italic;
     text-decoration: underline;
 }
+.highlight2
+{
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
+  /*text-decoration: underline;*/
+}
+.margin-left2
+{
+  /*color: var(--primary-color);*/
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 250px;
+  /*text-decoration: underline;*/
+}
 
 .foodbox
 {
@@ -75,7 +90,7 @@
 }
 .foodbox h1
 {
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 20px;
     font-weight: bold;
 }
@@ -96,4 +111,13 @@
 {
     height: 700px;
 }
+}
+p {
+  font-size: 30px;
+}
+
+a {
+  font-size: 32px;
+  margin-left: 30px;
+  /*margin-bottom: 400px;*/
 }

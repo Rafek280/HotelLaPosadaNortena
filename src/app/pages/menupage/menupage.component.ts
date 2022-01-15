@@ -18,13 +18,13 @@ export class MenupageComponent implements OnInit {
     console.log(this.getMenuId,'getmenu');
     if(this.getMenuId)
     {
-      this.menuData =  this.service.foodDetails.filter((value)=>{
+      this.menuData =  this.service.Habitaciones.filter((value)=>{
           return value.id == this.getMenuId;
         });
         console.log(this.menuData,'menudata>>');
-        
+
     }
-    
+
   }
 
 }

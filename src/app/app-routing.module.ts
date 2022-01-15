@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
+import { SobreNosotrosComponent } from './pages/about/sobre-nosotros.component';
+import { ContactoComponent } from './pages/contact/contacto.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
-import { MenuComponent } from './pages/menu/menu.component';
+import { GaleriaComponent } from './pages/menu/galeria.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
 
 const routes: Routes = [
   {path:'',component:InicioComponent},
-  {path:'menu',component:MenuComponent},
-  {path:'menu/:id',component:MenupageComponent},
-  {path:'about',component:AboutComponent},
-  {path:'contact',component:ContactComponent}
+  {path:'galeria',component:GaleriaComponent},
+  {path:'galeria/:id',component:MenupageComponent},
+  {path:'sobrenosotros',component:SobreNosotrosComponent},
+  {path:'contacto',component:ContactoComponent}
 ];
 
 @NgModule({

@@ -9,9 +9,8 @@
                 <h1>{{fd.foodName}}</h1>
                 <p>{{fd.foodDetails}}</p>
                 <b><p  style="color:red">{{fd.foodPrice | currency:'S/ '}}</p></b>
-<!--                <p>{{fd.foodPrice}}{{' PEN'}}</p>-->
                 <br/>
-                <a class="buybtn" [routerLink]="['/menu',fd.id]">Ver galeria &nbsp;<i class="bi bi-bag"></i></a>
+                <a class="buybtn" [routerLink]="['/galeria',fd.id]">Ver galeria &nbsp;<i class="bi bi-bag"></i></a>
             </div>
 
         </div>

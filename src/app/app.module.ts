@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
-import { MenuComponent } from './pages/menu/menu.component';
-import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
+import { GaleriaComponent } from './pages/menu/galeria.component';
+import { SobreNosotrosComponent } from './pages/about/sobre-nosotros.component';
+import { ContactoComponent } from './pages/contact/contacto.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
 
 @NgModule({
@@ -17,9 +17,9 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     NavbarComponent,
     FooterComponent,
     InicioComponent,
-    MenuComponent,
-    AboutComponent,
-    ContactComponent,
+    GaleriaComponent,
+    SobreNosotrosComponent,
+    ContactoComponent,
     MenupageComponent
   ],
   imports: [

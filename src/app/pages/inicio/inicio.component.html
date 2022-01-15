@@ -31,7 +31,7 @@
         </div>
     </div>
 </div>
-<h1 class="text-center">Nuestras <span class="highlight">habitaciones incluyen</span></h1>
+<h1 class="text-center"><span class="highlight">Nuestras habitaciones incluyen</span></h1>
 
 
 <div class="container mt-5 mb-5">
@@ -70,7 +70,6 @@
                 <h1>{{fd.foodName}}</h1>
               <b><p style="color:red">{{fd.foodPrice | currency:'S/ '}} <a class="buybtn" [routerLink]="['/galeria',fd.id]">Ver galeria &nbsp;<i class="bi bi-bag"></i></a></p></b>
 
-
             </div>
 
         </div>
@@ -83,7 +82,68 @@
 <!--<div>-->
 <h2 class="container mt-5"><span class="highlight">Platos a la carta</span></h2>
 <div class="container mt-4 "></div>
-  <div class="container mt-3 " *ngFor="let fd of platoData;index as i">
+<div class="container mt-3 " *ngFor="let fd of platoData;index as i">
     <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
 </div>
+<h2 class="container mt-5"><span class="highlight">Sandwiches</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of sandwichData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Omelette</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of omeletteData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Bebidas Calientes</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of bebidasCalientesData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Bebidas Frias en Vaso</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of bebidasFriasVasoData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Bebidas Frias en Jarra</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of bebidasFriasJarraData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Jugos en Vaso</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of jugosVasoData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<h2 class="container mt-5"><span class="highlight">Jugos de leche en Vaso</span></h2>
+<div class="container mt-4 "></div>
+<div class="container mt-3 " *ngFor="let fd of jugosLecheVasoData;index as i">
+  <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
+</div>
+<!--</div>-->
+<div class="container mt-5">
+  <iframe class="container mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4767305387195!2d-79.90331068522828!3d-6.71152599514784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cedeb0b5b9f6d%3A0x67644420a7a9830!2sHOTEL%20LA%20POSADA%20NORTE%C3%91A!5e0!3m2!1sen!2sde!4v1642226024276!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<!--<div class="container">-->
+<!--&lt;!&ndash;  <h2 class="container mt-5"><span class="highlight">Omelette</span></h2>&ndash;&gt;-->
+<!--  <div class="row">-->
+<!--    <div class="col-lg-6 mt-2" *ngFor="let fd of testLoop; index as i">-->
+
+<!--&lt;!&ndash;      <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>&ndash;&gt;-->
+
+
+<!--      <h2><span class="highlight">Bebidas Calientes</span></h2>-->
+
+
+<!--        <p class="margin-left2" *ngFor="let fd of bebidasCalientesData;index as i"  >{{fd.platoNombre}} {{fd.platoPrecio | currency:'  S/ '}}</p>-->
+
+<!--      <h2><span class="highlight">Jugos en Vaso</span></h2>-->
+
+<!--        <p class="margin-left2" *ngFor="let fd of jugosVasoData;index as i">{{fd.platoNombre}}{{fd.platoPrecio | currency:'  S/ '}}</p>-->
+
+<!--  </div>-->
+
+<!--</div>-->
+
 <!--</div>-->

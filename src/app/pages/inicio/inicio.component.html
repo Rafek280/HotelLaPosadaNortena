@@ -18,14 +18,15 @@
 <!-- two -->
         <div class="col-lg-4 mt-2">
             <div class="stepBox">
-                <h1>Restaurante</h1>
+<!--              <a href="#div_id">jump link</a>-->
+                <h1> <a style="text-decoration:none"  href="#restaurante_id">Restaurante </a></h1>
 <!--                <p>Agua caliente</p>-->
             </div>
         </div>
         <!-- three  -->
         <div class="col-lg-4 mt-2">
             <div class="stepBox">
-                <h1>Habitaciones</h1>
+                <h1> <a style="text-decoration:none"  href="#habitaciones_id"> Habitaciones </a></h1>
 <!--                <p>Baño privado en la habitación, Agua caliente, TV pantalla plana con Cable, Escritorio</p>-->
             </div>
         </div>
@@ -62,13 +63,13 @@
 </div>
 <!-- foodbox  -->
 <div class="container mt-4 mb-4">
-    <h1 class="text-center"><span class="highlight">Tipo de habitaciones</span></h1>
+    <h1 id="habitaciones_id" class="text-center"><span class="highlight">Tipo de habitaciones</span></h1>
     <div class="row">
         <div class="col-lg-4 mt-3" *ngFor="let fd of foodData;index as i">
             <div class="foodbox" *ngIf="i<=4">
                 <img src="{{fd.foodImg}}" />
                 <h1>{{fd.foodName}}</h1>
-              <b><p style="color:red">{{fd.foodPrice | currency:'S/ '}} <a class="buybtn" [routerLink]="['/galeria',fd.id]">Ver galeria &nbsp;<i class="bi bi-bag"></i></a></p></b>
+              <b><p style="color:red">{{fd.foodPrice | currency:'S/ '}} <a class="buybtn" [routerLink]="['',fd.id]">Ver galeria &nbsp;<i class="bi bi-bag"></i></a></p></b>
 
             </div>
 
@@ -77,7 +78,7 @@
 
 
 </div>
-<h1 class="text-center"><span class="highlight">Restaurante 3° Piso</span></h1>
+<h1 id="restaurante_id" class="text-center"><span class="highlight" >Restaurante 3° Piso</span></h1>
 
 <!--<div>-->
 <h2 class="container mt-5"><span class="highlight">Platos a la carta</span></h2>

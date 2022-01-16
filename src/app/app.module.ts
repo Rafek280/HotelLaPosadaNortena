@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
-import { GaleriaComponent } from './pages/menu/galeria.component';
-import { SobreNosotrosComponent } from './pages/about/sobre-nosotros.component';
-import { ContactoComponent } from './pages/contact/contacto.component';
+// import { GaleriaComponent } from './pages/menu/galeria.component';
+import { SobreNosotrosComponent } from './pages/sobrenosotros/sobre-nosotros.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     NavbarComponent,
     FooterComponent,
     InicioComponent,
-    GaleriaComponent,
+    // GaleriaComponent,
     SobreNosotrosComponent,
     ContactoComponent,
     MenupageComponent

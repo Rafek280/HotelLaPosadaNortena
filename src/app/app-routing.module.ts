@@ -8,8 +8,8 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 
 const routes: Routes = [
   {path:'',component:InicioComponent},
-  {path:'sobrenosotros',component:SobreNosotrosComponent},
-  {path:'contacto',component:ContactoComponent},
+  // {path:'sobrenosotros',component:SobreNosotrosComponent},
+  // {path:'contacto',component:ContactoComponent},
   {path:':id',component:MenupageComponent},
 ];
 

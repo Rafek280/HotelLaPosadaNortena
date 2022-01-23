@@ -148,6 +148,7 @@ container2 {
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
+  z-index: 100;
 }
 
 @keyframes pulse {

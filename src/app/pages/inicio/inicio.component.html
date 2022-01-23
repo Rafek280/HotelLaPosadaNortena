@@ -1,7 +1,6 @@
 <div class="banner">
     <div class="content">
-<!--        <h1 class="mb-5">Hotel La Posada Norteña <br/> Panamericana Norte Km 780 Lambayeque Peru </h1>-->
-<!--        <a routerLink="menu">Ver habitaciones<i class="bi bi-arrow-right"></i></a>-->
+
     </div>
 </div>
 <!-- step  -->
@@ -27,7 +26,7 @@
         <div class="col-lg-4 mt-2">
             <div class="stepBox">
                 <h1> <a style="text-decoration:none"  href="#habitaciones_id"> Habitaciones </a></h1>
-<!--                <p>Baño privado en la habitación, Agua caliente, TV pantalla plana con Cable, Escritorio</p>-->
+
             </div>
         </div>
     </div>
@@ -40,24 +39,24 @@
   <div class="row mt-5">
     <!-- one  -->
     <div class="col-lg-4 mt-2">
-      <div class="stepBox">
-        <h1>Baño privado</h1>
+<!--      <div class="stepBox">-->
+      <h1 class="incluye"> <a style="color: red; font-style:normal">★</a>   Baño privado</h1>
         <!--                <p>Baño privado en la habitación</p>-->
-      </div>
+<!--      </div>-->
     </div>
     <!-- two -->
     <div class="col-lg-4 mt-2">
-      <div class="stepBox">
-        <h1>Agua caliente</h1>
+<!--      <div class="stepBox">-->
+      <h1 class="incluye"> <a style="color: red; font-style:normal">★</a> Agua caliente</h1>
         <!--                <p>Agua caliente</p>-->
-      </div>
+<!--      </div>-->
     </div>
     <!-- three  -->
     <div class="col-lg-4 mt-2">
-      <div class="stepBox">
-        <h1>TV plana con Cable</h1>
+<!--      <div class="stepBox">-->
+        <h1 class="incluye"><a style="color: red; font-style:normal">★</a> TV plana con Cable</h1>
         <!--                <p>Baño privado en la habitación, Agua caliente, TV pantalla plana con Cable, Escritorio</p>-->
-      </div>
+<!--      </div>-->
     </div>
   </div>
 </div>
@@ -143,32 +142,6 @@
 <div class="container mt-3 " *ngFor="let fd of jugosLecheVasoData;index as i">
   <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>
 </div>
-
-
-
-
-<!--<div class="container">-->
-<!--&lt;!&ndash;  <h2 class="container mt-5"><span class="highlight">Omelette</span></h2>&ndash;&gt;-->
-<!--  <div class="row">-->
-<!--    <div class="col-lg-6 mt-2" *ngFor="let fd of testLoop; index as i">-->
-
-<!--&lt;!&ndash;      <p class="margin-left2"><span>{{fd.platoNombre}}</span><span style="color:red">{{fd.platoPrecio | currency:'  S/ '}}</span></p>&ndash;&gt;-->
-
-
-<!--      <h2><span class="highlight">Bebidas Calientes</span></h2>-->
-
-
-<!--        <p class="margin-left2" *ngFor="let fd of bebidasCalientesData;index as i"  >{{fd.platoNombre}} {{fd.platoPrecio | currency:'  S/ '}}</p>-->
-
-<!--      <h2><span class="highlight">Jugos en Vaso</span></h2>-->
-
-<!--        <p class="margin-left2" *ngFor="let fd of jugosVasoData;index as i">{{fd.platoNombre}}{{fd.platoPrecio | currency:'  S/ '}}</p>-->
-
-<!--  </div>-->
-
-<!--</div>-->
-
-<!--</div>-->
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

@@ -192,3 +192,9 @@ container2 {
     opacity: 0;
   }
 }
+
+.incluye{
+  color:#8a91fd;
+  font-weight: bold;
+  font-style: italic;
+}
